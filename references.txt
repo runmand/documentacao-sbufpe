@@ -1,0 +1,3 @@
+micro-api-plataforma-ufpe: https://github.com/runmand/micro-api-plataforma-ufpe.git
+front-plataforma-ufpe: https://github.com/runmand/front-plataforma-ufpe.git
+docs-ufpe: https://github.com/runmand/documentacao-sbufpe.git
