@@ -1,0 +1,35 @@
+{
+  "repositories": {
+    "front-plataform": "https://github.com/runmand/front-plataforma-ufpe.git",
+    "micro-api-plataforma": "https://github.com/runmand/micro-api-plataforma-ufpe.git",
+    "docs": "shared-by-google-drive"
+  },
+  "docs": {
+    "vue-js": "https://br.vuejs.org/v2/guide/index.html",
+    "type-script": "https://www.typescriptlang.org/docs",
+    "type-orm": "https://typeorm.io",
+    "postgres": "https://www.postgresql.org/docs",
+    "git-flow": "https://buildmedia.readthedocs.org/media/pdf/git-flow/latest/git-flow.pdf",
+    "conventional-commits": "https://www.conventionalcommits.org/en/v1.0.0",
+    "nodemon": "https://nodemon.io"
+  },
+  "tutorials": {
+    "type-orm": "https://www.youtube.com/watch?v=ZBlW5IBdhKk&list=PLDqnSpzNKDvn-3cpMf3yPn7gTnb3ooy4b",
+    "data-base-modeling": "https://www.youtube.com/watch?v=Q_KTYFgvu1s&list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD",
+    "server-node-express-type-script": "https://blog.logrocket.com/how-to-set-up-node-typescript-express/"
+  },
+  "other-links": {
+    "best-pratices-restful": "https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples"
+  },
+  "scripts": {
+    "migrations": {
+      "create": [
+        "npx typeorm migration:create -n <nome_da_sua_migration>",
+        "./node_modules/.bin/typeorm migration:create -n <nome_da_sua_migration>"
+      ],
+      "generate": "",
+      "run": "npm run typeorm migration:run",
+      "revert": "npm run typeorm migration:revert"
+    }
+  }
+}
