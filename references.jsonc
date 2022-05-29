@@ -2,7 +2,7 @@
   "repositories": {
     "front-plataform": "https://github.com/runmand/front-plataforma-ufpe.git",
     "micro-api-plataforma": "https://github.com/runmand/micro-api-plataforma-ufpe.git",
-    "docs": "shared-by-google-drive"
+    "docs": "https://github.com/runmand/documentacao-sbufpe.git"
   },
   "docs": {
     "vue-js": "https://br.vuejs.org/v2/guide/index.html",
