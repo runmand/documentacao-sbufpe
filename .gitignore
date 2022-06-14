@@ -1,2 +1,6 @@
 
 *.bkp
+
+*.dtmp
+
+modules/auth/~\$gister\.docx
