@@ -23,13 +23,10 @@
   },
   "scripts": {
     "migrations": {
-      "create": [
-        "npx typeorm migration:create -n <nome_da_sua_migration>",
-        "./node_modules/.bin/typeorm migration:create -n <nome_da_sua_migration>"
-      ],
-      "generate": "",
-      "run": "npm run typeorm migration:run",
-      "revert": "npm run typeorm migration:revert"
+      "create": "npx ts-node node_modules\\typeorm\\cli.js migration:create -n <migration_name_here>",
+      "generate": "npx ts-node node_modules\\typeorm\\cli.js migration:generate -n <migration_name_here>",
+      "run": "npx ts-node node_modules\\typeorm\\cli.js migration:run",
+      "revert": "npx ts-node node_modules\\typeorm\\cli.js migration:revert"
     }
   }
 }
